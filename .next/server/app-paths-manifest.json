@@ -1,0 +1,12 @@
+{
+  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/fav/page": "app/fav/page.js",
+  "/orders/page": "app/orders/page.js",
+  "/newadre/page": "app/newadre/page.js",
+  "/refund/page": "app/refund/page.js",
+  "/upiid/page": "app/upiid/page.js",
+  "/customer/page": "app/customer/page.js",
+  "/adress/page": "app/adress/page.js",
+  "/delivery/page": "app/delivery/page.js"
+}
