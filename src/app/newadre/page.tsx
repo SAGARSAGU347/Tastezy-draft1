@@ -78,7 +78,7 @@ function AddNewAddressForm() {
       <div className="bg-white rounded-lg p-6 space-y-6">
       <Button 
         variant="default" 
-        className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center gap-2"
+        className="w-15px bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center gap-2"
       >
         <MapPin className="w-4 h-4" />
         Use my current address
@@ -100,7 +100,7 @@ function AddNewAddressForm() {
         
         <Button 
           type="submit"
-          className="w-full bg-green-600 hover:bg-green-700 text-white"
+          className="w-15px bg-green-600 hover:bg-green-700 text-white"
         >
           Save
         </Button>

@@ -375,10 +375,6 @@ body {
   top: .75rem;
 }
 
-.z-40 {
-  z-index: 40;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -446,6 +442,10 @@ body {
 
 .mt-\[20px\] {
   margin-top: 20px;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .flex {
@@ -532,6 +532,10 @@ body {
   height: 100vh;
 }
 
+.h-2 {
+  height: .5rem;
+}
+
 .min-h-\[100px\] {
   min-height: 100px;
 }
@@ -608,6 +612,10 @@ body {
   width: 100%;
 }
 
+.w-2 {
+  width: .5rem;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -618,11 +626,6 @@ body {
 
 .shrink-0 {
   flex-shrink: 0;
-}
-
-.-translate-x-20 {
-  --tw-translate-x: -5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-4 {
@@ -1010,11 +1013,6 @@ body {
   padding-bottom: 11.5px;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .pb-3 {
   padding-bottom: .75rem;
 }
@@ -1135,6 +1133,11 @@ body {
   letter-spacing: -.025em;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity, 1));
@@ -1150,6 +1153,11 @@ body {
 
 .text-destructive-foreground {
   color: hsl(var(--destructive-foreground));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-400 {
@@ -1206,16 +1214,6 @@ body {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity, 1));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity, 1));
 }
 
 .line-through {
@@ -1447,11 +1445,6 @@ body {
   --tw-ring-color: hsl(var(--ring));
 }
 
-.active\:bg-blue-700:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
-}
-
 .disabled\:pointer-events-none:disabled {
   pointer-events: none;
 }
@@ -1513,10 +1506,6 @@ body {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:w-64 {
-    width: 16rem;
   }
 
   .md\:translate-x-0 {
